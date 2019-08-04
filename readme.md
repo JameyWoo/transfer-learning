@@ -9,7 +9,6 @@ ubuntu 18.04
 1. torch==1.1.0
 2. numpy==1.17.0
 3. torchvision==0.3.0
-4. Pillow==6.1.0
 
 ## 使用方法
 ### 训练
@@ -30,6 +29,22 @@ ps. 在普通笔记本上生成模型的时间较久
 `python test.py`
 
 即可测试模型对花分类的准确率
+
+
+
+当epoch为3时, 模型的准确率达到了83%, 其中, 除roses外准确率都极高. (大多数错误都是由roses引起的)
+
+```bash
+Test Accuracy of daisy: 84% (78/92)
+Test Accuracy of dandelion: 94% (125/132)
+Test Accuracy of roses: 59% (54/91)
+Test Accuracy of sunflowers: 85% (86/101)
+Test Accuracy of tulips: 87% (108/124)
+
+Test Accuracy (Overall): 83% (451/540)
+```
+
+
 
 ### 运行
 
