@@ -1,5 +1,7 @@
 # transfer learning 
 
+@ author 姬小野
+
 --- 迁移学习对五种花分类
 
 ## 环境

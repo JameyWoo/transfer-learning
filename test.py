@@ -8,7 +8,7 @@ from preprocess import test_loader, train_on_gpu, vgg16, criterion, optimizer, b
 import numpy as np
 import torch
 
-vgg16 = torch.load('my_vgg16_3epochs.pth')
+vgg16 = torch.load('my_vgg16_10epochs.pth')
 
 
 # track test loss
